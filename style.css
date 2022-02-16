@@ -1,0 +1,52 @@
+.nav{
+    background-color: black;
+    height: 40px;
+    padding: 24px;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+
+}
+.nav-title{
+    color: white;
+    flex-direction: row;
+    flex: 2;
+    
+
+}
+
+.nav-links{
+    display: flex;
+    flex:1;
+    justify-content: space-evenly;
+}
+
+.btn {
+    background-color: grey
+}
+
+
+    
+.btn:hover{
+    background-color: red;
+
+}
+ul{
+    color: white;
+    
+}
+.nav-links li{
+    display:inline-block;
+    justify-content: space-between;
+    
+
+}
+
+li a {
+    color: white;
+}
+
+.nav h1 , li a{
+    font-family: 'Oswald', sans-serif;
+}
+
